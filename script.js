@@ -26,7 +26,7 @@ function validateLogin() {
         return false;
     }
 }
-// ================= IMAGE SLIDER ================= //
+
 let slides = document.querySelectorAll(".slide");
 let index = 0;
 
@@ -53,5 +53,6 @@ function sendMessage() {
         document.getElementById("status").style.color = "red";
     }
 
-    return false; // Stop real form submit
+    return false;
 }
+
