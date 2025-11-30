@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records Portal</title>
+
+    <style>
+        body{
+            font-family: Poppins, Arial;
+            margin: 0;
+            padding: 0;
+            background: #eef3f7;
+        }
+
+        .container{
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .section{
+            background: white;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+        }
+
+        .section h2{
+            margin-bottom: 15px;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+            font-size: 24px;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .field{
+            padding: 12px;
+            background: #f7f9fc;
+            border-left: 4px solid #007bff;
+            border-radius: 8px;
+        }
+
+        .field span{
+            font-weight: bold;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td{
+            border: 1px solid #ddd;
+            padding: 12px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        th{
+            background: #007bff;
+            color: white;
+        }
+
+        @media(max-width: 900px){
+            .grid{
+                grid-template-columns: 1fr;
+            }
+            .container{
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- CURRENT STUDENT INFORMATION -->
+    <div class="section">
+        <h2>Current Student Information</h2>
+        <div class="grid">
+            <div class="field"><span>Name:</span> John Doe</div>
+            <div class="field"><span>ID:</span> ST2025</div>
+            <div class="field"><span>Course:</span> BCA</div>
+            <div class="field"><span>Year:</span> 2nd Year</div>
+            <div class="field"><span>Current CGPA:</span> 8.7</div>
+        </div>
+    </div>
+
+    <!-- PREVIOUS SEMESTER RESULTS -->
+    <div class="section">
+        <h2>Previous Semester Results</h2>
+        <table>
+            <tr>
+                <th>Semester</th>
+                <th>Subjects</th>
+                <th>Grade</th>
+                <th>SGPA</th>
+            </tr>
+            <tr>
+                <td>1st Semester</td>
+                <td>Programming, DBMS, HTML</td>
+                <td>A</td>
+                <td>8.4</td>
+            </tr>
+            <tr>
+                <td>2nd Semester</td>
+                <td>Java, Networking, DSA</td>
+                <td>A+</td>
+                <td>8.9</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ATTENDANCE HISTORY -->
+    <div class="section">
+        <h2>Attendance History</h2>
+        <table>
+            <tr>
+                <th>Semester</th>
+                <th>Total Classes</th>
+                <th>Present</th>
+                <th>Attendance %</th>
+            </tr>
+            <tr>
+                <td>1st Semester</td>
+                <td>120</td>
+                <td>110</td>
+                <td>91%</td>
+            </tr>
+            <tr>
+                <td>2nd Semester</td>
+                <td>130</td>
+                <td>118</td>
+                <td>90%</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- FEE PAYMENT HISTORY -->
+    <div class="section">
+        <h2>Fee Payment History</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>₹45,000</td>
+                <td>Paid</td>
+                <td>10-Aug-2023</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>₹47,000</td>
+                <td>Paid</td>
+                <td>12-Aug-2024</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="section">
+        <h2>Achievements & Certificates</h2>
+        <ul style="font-size: 18px; line-height: 1.7;">
+            <li>Won 1st Prize in Coding Competition (2023)</li>
+            <li>Completed Web Development Certification (2024)</li>
+            <li>Participated in College TechFest Hackathon</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
+
