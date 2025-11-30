@@ -54,5 +54,4 @@ This website demonstrates full front-end development skills and is suitable as a
 
 🚀 Deployment Link (Mandatory)
 
-Live Project Link:
-https://your-deployed-project-link.com
+Live Project Link: https://gauravduhariya.github.io/school_web_project1/
