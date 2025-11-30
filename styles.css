@@ -1,7 +1,4 @@
 
-/* ======================
-   GLOBAL STYLES
-====================== */
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* ======================
-   HEADER & NAVBAR
-====================== */
+
 header {
     background: #005bac;
     color: white;
@@ -44,9 +39,7 @@ nav a.active {
     color: #005bac;
 }
 
-/* ======================
-   COMMON SECTIONS
-====================== */
+
 section {
     padding: 40px 60px;
     text-align: center;
@@ -57,22 +50,12 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* ======================
-   HOME PAGE
-====================== */
-/* ======================
-   IMAGE SLIDER
-====================== */
-/* Page Background */
 
-/* ======================
-   RESPONSIVE IMAGE SLIDER
-====================== */
 .image-slider {
     width: 100%;
-    height: 100vh;           /* Automatically adjusts (60% of screen height) */
-    min-height: 300px;      /* Prevents being too small */
-    max-height: 700px;      /* Prevents being too large */
+    height: 100vh;          
+    min-height: 300px;     
+    max-height: 700px;     
     overflow: hidden;
     position: relative;
     margin-bottom: 40px;
@@ -87,7 +70,7 @@ h2 {
 .slider img {
     width: 100%;
     height: 100%;
-    object-fit: cover;   /* FULL image fits, no stretch */
+    object-fit: cover;  
     position: absolute;
     top: 0;
     left: 0;
@@ -99,7 +82,7 @@ h2 {
     opacity: 1;
 }
 
-/* For very small screens (mobiles) */
+
 @media (max-width: 600px) {
     .image-slider {
         height: 35vh;
@@ -133,9 +116,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* ======================
-   ABOUT PAGE
-====================== */
+
 .about-hero {
     background: #003f7f;
     color: white;
@@ -173,14 +154,12 @@ h2 {
     border-radius: 8px;
 }
 
-/* ======================
-   STUDENT PANEL PAGE
-====================== */
+
 .student-login {
-    max-width: 330px;               /* SMALLER WIDTH */
+    max-width: 330px;              
     margin: 40px auto;
     background: #ffffff;
-    padding: 20px 25px;             /* Reduced padding */
+    padding: 20px 25px;           
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
     text-align: center;
@@ -194,16 +173,16 @@ h2 {
 
 input {
     width: 100%;
-    padding: 10px;                   /* Smaller input */
+    padding: 10px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 14px;                 /* Smaller font */
+    font-size: 14px;                
 }
 
 button {
     width: 100%;
-    padding: 10px;                   /* Smaller button */
+    padding: 10px;                   
     background: #005bac;
     color: white;
     border: none;
@@ -222,9 +201,7 @@ button:hover {
     color: #555;
 }
 
-/* ======================
-   FOOTER
-====================== */
+
 footer {
     background: #003f7f;
     color: white;
@@ -233,9 +210,7 @@ footer {
     text-align: center;
 }
 
-/* ======================
-   RESPONSIVE
-====================== */
+
 @media (max-width: 768px) {
     section {
         padding: 25px;
@@ -247,7 +222,7 @@ footer {
     }
 }
 
-/* CONTACT HERO */
+
 .contact-hero {
     background: linear-gradient(to right, #005bac, #003f7f);
     color: white;
@@ -259,7 +234,7 @@ footer {
     font-size: 35px;
 }
 
-/* CONTACT MAIN AREA */
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -269,7 +244,7 @@ footer {
     gap: 20px;
 }
 
-/* LEFT SIDE INFO */
+
 .contact-info {
     flex: 1;
     min-width: 300px;
@@ -280,7 +255,7 @@ footer {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* RIGHT SIDE FORM */
+
 .contact-form {
     flex: 1;
     min-width: 300px;
@@ -295,7 +270,7 @@ footer {
     color: #005bac;
 }
 
-/* INPUTS */
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -311,7 +286,7 @@ footer {
     height: 120px;
 }
 
-/* BUTTON */
+
 .contact-form button {
     width: 100%;
     padding: 12px;
@@ -332,3 +307,4 @@ footer {
     font-weight: bold;
     color: green;
 }
+
