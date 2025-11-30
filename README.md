@@ -13,7 +13,7 @@ Batch: C3
 
 This project is a responsive school website developed using HTML, CSS, and JavaScript.
 The website consists of three fully designed pages:
-
+--
 1️⃣ Home Page
 
 Auto image slider (single-div slider)
@@ -23,7 +23,7 @@ Navigation bar with hover effects
 Introduction of Madhav Vidhya Peeth School
 
 Fully responsive layout
-
+--
 2️⃣ About Page
 
 School history and details
@@ -31,7 +31,7 @@ School history and details
 Mission & Vision section
 
 Clean typography and structured layout
-
+--
 3️⃣ Contact Page
 
 Contact form (NOT connected to email as requested)
@@ -41,7 +41,12 @@ JavaScript form validation
 Address, phone number, basic info
 
 Responsive design
+--
+🔐 Login Details (If Required)
 
+Username: gaurav
+Password: 12345
+--
 🛠 Technologies Used
 
 HTML5 – Page structure
